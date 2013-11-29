@@ -1,0 +1,14 @@
+Nov 29 13:22:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 29 13:22:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 29 13:22:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 29 13:22:07 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 29 13:22:07 symfony [info] {sfPHPView} Render "/home/alexey/Development/sfprojects/infortium/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Nov 29 13:22:07 symfony [info] {sfPHPView} Decorate content with "/home/alexey/Development/sfprojects/infortium/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 29 13:22:07 symfony [info] {sfPHPView} Render "/home/alexey/Development/sfprojects/infortium/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Nov 29 13:22:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 29 13:22:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 29 13:22:07 symfony [info] {sfWebDebugLogger} Configuration 52.28 ms (9)
+Nov 29 13:22:07 symfony [info] {sfWebDebugLogger} Factories 43.17 ms (1)
+Nov 29 13:22:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.09 ms (1)
+Nov 29 13:22:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.39 ms (1)
+Nov 29 13:22:07 symfony [info] {sfWebResponse} Send content (29055 o)
